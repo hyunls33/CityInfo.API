@@ -28,7 +28,11 @@ namespace CityInfo.API
 
             app.Run(async (context) =>
             {
+<<<<<<< HEAD
                 //마스터 코드 추가했습니다~!!
+=======
+                //롤백 테스트요!
+>>>>>>> parent of eef0354... 마스터 체인지
                 await context.Response.WriteAsync("Merge Test");
             });
         }
