@@ -28,7 +28,7 @@ namespace CityInfo.API
 
             app.Run(async (context) =>
             {
-                //rollback test!!!!
+                //reset test!!!!
                 await context.Response.WriteAsync("Merge Test");
             });
         }
