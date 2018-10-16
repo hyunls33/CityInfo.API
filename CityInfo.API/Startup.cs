@@ -28,7 +28,7 @@ namespace CityInfo.API
 
             app.Run(async (context) =>
             {
-                //마스터 코드 추가했습니다~!!
+                //Master New Code Insert Test!!!
                 await context.Response.WriteAsync("Merge Test");
             });
         }
