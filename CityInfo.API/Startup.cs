@@ -28,7 +28,6 @@ namespace CityInfo.API
 
             app.Run(async (context) =>
             {
-                //r o l l   b a c k !!! Test !!!!
                 await context.Response.WriteAsync("Merge Test");
             });
         }
