@@ -30,7 +30,7 @@ namespace CityInfo.API
             {
                 // 주석 3 추가 
                 // 주석 추가
-                await context.Response.WriteAsync("Master Branch Update");
+                await context.Response.WriteAsync("Merge Test");
             });
         }
     }
